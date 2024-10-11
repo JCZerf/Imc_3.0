@@ -1,0 +1,50 @@
+body{
+    background-color: gray;
+}
+
+h1{
+    font-size: 60px;
+    color: gold;
+    text-align: center;
+    border: solid;
+    border-color: black;
+    background-color: black;
+}
+
+input{
+    text-align: center;
+    font-size: 30px;
+    border: solid;
+    border-color: gold; 
+}
+
+label{
+    color: gold;
+    font-size: 30px;
+}
+
+p{
+    color: gold;
+    font-size: 30px;
+}
+
+button{
+    font-size: 40px;
+    background-color: black;
+    border: solid;
+    border-color: gold;
+    color: gold;
+}
+
+table{
+    border-color: gold;
+    background-color: white;
+    font-size: 30px;
+}
+
+img{
+    width: 800px;
+    position: relative;
+    left: 600px;
+    bottom: 500px;
+}

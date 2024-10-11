@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imc_3.0 atualização</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Cálculo De IMC</h1>
+<div>
+    <label>ALTURA</label>
+    <input type="number" name="valorAltura" id="altura" placeholder="Insira sua Altura ex.: 180" required>
+    <br><br>
+    <label>PESO</label>
+    <input type="number" name="valorPeso" id="peso" placeholder="Insira seu Peso ex.: 90" required>
+    <br><br>
+    <button id="botao" onmousedown="pressionouBotao(id);" onmouseup="saiuBotao(id)" onclick="calcularImc()">Calcular</button>
+    <button id="botaoResete" onmousedown="pressionouBotao(id);" onmouseup="saiuBotao(id)" onclick="novoCalculoImc()">Reiniciar</button>
+    <br><br>
+    <p id="resultadoDoImc"><b>RESULTADO</b></p>
+</div>
+    <table border="2">
+        <tr id="normal">
+            <td>Entre 18,5 e 24,9</td>
+            <td>Peso normal</td>
+        </tr>
+        <tr id="sobrepeso">
+            <td>Entre 25 e 29,9</td>
+            <td>Sobrepeso</td>
+        </tr>
+        <tr id="sobrepeso1">
+            <td>Entre 30 e 34,9</td>
+            <td>Obesidade classe I</td>
+        </tr>
+        <tr id="sobrepeso2">
+            <td>Entre 35 e 39,9</td>
+            <td>Obesidade classe II</td>
+        </tr>
+        <tr id="sobrepeso3">
+            <td>Maio que 40</td>
+            <td>Obesidade classe III</td>
+        </tr>
+    
+    </table>
+<div>
+    <br>
+    
+
+
+</div>
+    <img src="img/imc.jpg" alt="Imagem sobre imc">
+    <script src="app.js"></script>
+</body>
+</html>
